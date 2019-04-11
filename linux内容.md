@@ -1,0 +1,30 @@
+# Linux学习之路
+- Linux系统的**使用学习**
+	* 熟练使用命令行([The art of command](https://github.com/jlevy/the-art-of-command-line)) 以及shell脚本
+	* 学习使用linux系统库函数，应用编程API（比如怎么去实现一个cat/rm/rmdir之类的文件处理命令，怎么去编程实现ping这类命令）
+		* UNIX高级环境编程
+		* UNIX网络编程
+	* ~~阅读开源服务器源码~~
+- 理解操作系统的各个模块的功能，梳理**内核架构**
+	* 中断响应
+	* 虚拟内存管理
+	* 任务调度和上下文管理
+	* IO
+	* 系统初始化
+	* 设备驱动程序
+	* 安全
+	* ……
+- 搭建Linux学习环境（qemu），学习编译linux内核，**阅读源码**，动手修改代码去验证自己的理解。学会使用kernel的调试工具，如qemu+gbd，以及内核自身提供的ftrace，perf等功能
+	* 系统调用原理
+	* 中断处理
+	* 虚拟内存
+	* 调度算法
+	* 文件系统
+	* 网络协议栈
+	* 安全
+	* ……
+- 小型操作系统的源码学习，总结操作系统的共性和区别
+- [build your own X](https://github.com/danistefanovic/build-your-own-x) 
+	* 设计和需求分析
+	* [操作系统开发](https://github.com/danistefanovic/build-your-own-x#build-your-own-operating-system)
+	* 系统应用开发
